@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    margin-top: 50px;
+    border: 2px solid limegreen;
+    border-radius: 10px; 
+}
+img{
+    width: 180px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    background-color: limegreen;
+}
+.header-content{
+    margin-bottom: 100px;
+}
+#container{
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+}
+.containerH1{
+    font-size: 45px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.containerP{
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.firstDiv{
+    border: 1px solid white;
+    width: 20%;
+    border-radius: 30px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.secondDiv{
+    border: 1px solid white;
+    width: 20%;
+    border-radius: 30px;
+    margin-right: 15px;
+    background-color: white;
+}
+.thirdDiv{
+    border: 1px solid white;
+    width: 20%;
+    border-radius: 30px;
+    background-color: white;
+}
+.divFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    height: 180px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: silver;
+    opacity: 0.8;
+    padding: 3px;
+    border-radius: 10px;
+}
+.divP{
+    font-size: 15px;
+    color: grey;
+    font-weight: 500;
+}
+.divH3{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.divH6{
+    font-size: 14px;
+    font-weight: 900;
+}
+.icons{
+    letter-spacing: 5px;  
+    color: limegreen;
+}
